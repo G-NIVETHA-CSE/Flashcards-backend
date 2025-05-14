@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 
 const connectDB = async () => {
   try {
-    const conn = await mongoose.connect('mongodb://localhost:27017/flashcardApp', {
+    const conn = await mongoose.connect('mongodb+srv://nivethag2023cse:nivi%401234@flashcard.rfwtnet.mongodb.net/?retryWrites=true&w=majority&appName=Flashcard', {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
